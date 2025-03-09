@@ -1,0 +1,85 @@
+﻿"Titre du cube";"Numéro d'identification du produit";"Numéro d'identification de CANSIM";URL;"Notes sur le cube";"État de l'archivage";Fréquence;"Début de la période de référence";"Fin de la période de référence";"Nombre total de dimensions"
+"Indice de masse corporelle (IMC), norme internationale, selon le groupe d'âge et le sexe, population à domicile de 20 à 64 ans excluant les femmes enceintes, Canada et provinces";13100503;"104-0009";"https://www150.statcan.gc.ca/t1/tbl1/fr/tv.action?pid=1310050301";"1,2,3,4,5,9";"ARCHIVÉ - un cube qui est disponible au public mais n'étant plus mis à jour";"Aux 2 ans";"1994-01-01";"1998-01-01";5
+
+"Numéro d'identification de la dimension";"Nom de la dimension";"Notes sur la dimension";"Notes de correction sur la dimension";"Définitions de la dimension"
+1;Géographie;;;
+2;"Groupe d'âge";;;
+3;Sexe;;;
+4;"Indice de masse corporelle (IMC), norme internationale";"2,3,4,5";;
+5;Caractéristiques;"6,7,8";;
+
+"Numéro d'identification de la dimension";"Nom du membre";"Code sur la classification";"Numéro d'identification du membre";"Numéro d'identification du membre parent";Terminé;"Notes sur le membre";"Notes de correction sur le membre";"Member Geo Attribute Keys";"Définitions du membre"
+1;Canada;;1;;;;;;
+1;"Terre-Neuve-et-Labrador";;2;1;;;;;
+1;"Île-du-Prince-Édouard";;3;1;;;;;
+1;"Nouvelle-Écosse";;4;1;;;;;
+1;"Nouveau-Brunswick";;5;1;;;;;
+1;Québec;;6;1;;;;;
+1;Ontario;;7;1;;;;;
+1;Manitoba;;8;1;;;;;
+1;Saskatchewan;;9;1;;;;;
+1;Alberta;;10;1;;;;;
+1;"Colombie-Britannique";;11;1;;;;;
+2;"Total, 20 à 64 ans";;1;;;;;;
+2;"20 à 34 ans";;2;1;;;;;
+2;"20 à 24 ans";;3;2;;;;;
+2;"25 à 34 ans";;4;2;;;;;
+2;"35 à 44 ans";;5;1;;;;;
+2;"45 à 64 ans";;6;1;;;;;
+2;"45 à 54 ans";;7;6;;;;;
+2;"55 à 64 ans";;8;6;;;;;
+3;"Hommes et femmes";;1;;;;;;
+3;Hommes;;2;1;;;;;
+3;Femmes;;3;1;;;;;
+4;"Population totale pour la variable indice de masse corporelle";;1;;;;;;
+4;"Poids insuffisant - IMC inférieur à 18,5";;2;1;;;;;
+4;"Poids normal - IMC 18,5-24,9";;3;1;;;;;
+4;"Embonpoint - IMC 25,0-29,9";;4;1;;;;;
+4;"Obésité - IMC 30,0 ou plus";;5;1;;;;;
+4;"Indice de masse corporelle, non déclaré";;6;1;;;;;
+5;"Nombre de personnes";;1;;;;;;
+5;"Limite inférieure de l'intervalle de confiance de 95 % - nombre de personnes";;2;;;;;;
+5;"Limite supérieure de l'intervalle de confiance de 95 % - nombre de personnes";;3;;;;;;
+5;"Coefficient de variation pour le nombre de personnes";;4;;;;;;
+5;Pourcentage;;5;;;;;;
+5;"Limite inférieure de l'intervalle de confiance de 95 % - pourcentage";;6;;;;;;
+5;"Limite supérieure de l'intervalle de confiance de 95 % - pourcentage";;7;;;;;;
+5;"Coefficient de variation pour le pourcentage";;8;;;;;;
+
+Légende Symbole
+Description;Symbole
+"indisponible pour une période de référence précise";".."
+"inférieur à la limite de détection";<LDD
+"valeur arrondie à 0 (zéro) là où il y a une distinction importante entre le zéro absolu et la valeur arrondie";"0s"
+"qualité des données : excellente";A
+"qualité des données : très bonne";B
+"qualité des données : bonne";C
+"qualité des données : acceptable";D
+"à utiliser avec prudence";E
+"trop peu fiable pour être publié";F
+"n'ayant pas lieu de figurer";"..."
+provisoire;p
+révisé;r
+"confidentiel en vertu des dispositions de la Loi sur la statistique";x
+terminé;t
+
+"Code d'enquête";"Nom de l'enquête"
+"3236";"Enquête nationale sur la santé de la population : Volet ménages - transversal"
+
+"Code du sujet";"Nom du sujet"
+"13";Santé
+
+"Numéro d'identification de la note";Note
+1;"Source :  Statistique Canada, Enquête nationale sur la santé de la population, 1994-1995, 1996-1997 et 1998-1999, échantillon transversal, Fichier santé"
+2;"L'indice de masse corporelle (IMC), norme internationale, qui établit le rapport entre le poids et la taille, est une méthode utilisée couramment pour déterminer si le poids d'une personne se situe dans une fourchette saine compte tenu de sa taille."
+3;"L'indice de masse corporelle (IMC), norme internationale, est calculé de la façon suivante : poids exprimé  en kilogrammes divisé par le carré de la taille exprimée en mètres."
+4;"L'indice est :  inférieur à 18,5 (poids insuffisant), 18,5-24,9 (poids normal), 25,0-29,9 (embonpoint) et 30,0 ou plus (obésité)."
+5;"Personnes de 20 à 64, sauf les femmes enceintes et les personnes de moins de 3 pieds (0,914 mètres) ou de plus de 6 pieds 11 pouces (2,108 mètres)."
+6;"Les coefficients de variation (CV) et les intervalles de confiance (IC) de 95 % ont été calculés selon la méthode de rééchantillonnage « Bootstrap »."
+7;"Les données dont le coefficient de variation (CV) se situe entre 16,6 % et 33,3 % sont marquées d'un (E) et doivent être interprétées avec prudence."
+8;"Les données présentant un coefficient de variation (CV) supérieur à 33,3 % ont été supprimées (F) en raison de l'extrême variabilité d'échantillonnage."
+9;"La composante transversale de l'Enquête nationale sur la santé de la population (ENSP) a été intégrée à l'Enquête sur la santé dans les collectivités canadiennes (ESCC). Le tableau (104-0009) a été archivé. Les mises à jour sont dans le tableau (105-0009). La nouvelle méthodologie est disponible dans le tableau (104-0007)."
+
+"Numéro d'identification de la correction";"Date de la correction";"Note sur la correction"
+
+
