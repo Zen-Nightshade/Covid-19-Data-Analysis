@@ -1,45 +1,42 @@
-# Applied Statistics Project
+# Statistical Analysis of COVID-19 Data
 
-This repository contains the academic project completed as part of the Applied Statistics course under the guidance of **Prof. Arunabha Majumdar**.
+Welcome! This repository holds our academic project for the Applied Statistics course with Prof. Arunabha Majumdar. Here, we dig into actual COVID-19 data and use Python (mainly Jupyter Notebooks) to explore what statistics can tell us about the pandemic.
 
-## Overview
+## Project Overview
 
-The project explores various topics and techniques in applied statistics, utilizing real-world data and Jupyter Notebook-based analysis. The goal is to apply statistical methods to solve practical problems, interpret results, and present findings in a clear and reproducible manner.
+We worked with real COVID-19 datasets to practice and understand different statistical methods. The project covers everything from basic data cleaning and visualization to hypothesis testing.  
+Our main aim: Use statistics to answer practical questions, make sense of the results, and share our findings clearly and reproducibly.
 
-## Contents
+## Repository Structure
 
-- 📓 **Jupyter Notebooks**: All analyses, code, and visualizations are provided in Jupyter Notebook format for easy reproducibility.
-- 📊 **Statistical Methods**: The project covers topics such as data exploration, hypothesis testing, regression analysis, and more (see notebook contents for specifics).
-- 📈 **Results & Interpretation**: Each notebook includes not only code but also explanatory text to help understand the statistical reasoning and results.
+- `notebooks/` – All our Jupyter Notebooks with code, plots, and explanations.
+- `data/` – (If present) The datasets we used.
+- `README.md` – You’re reading it!
 
 ## Getting Started
 
-1. **Clone the repository:**
+1. **Clone this repo:**
    ```bash
    git clone https://github.com/Zen-Nightshade/Applied_Stats_Project.git
    cd Applied_Stats_Project
    ```
 
-2. **Open the notebooks:**
-   - Use [Jupyter Notebook](https://jupyter.org/) or [JupyterLab](https://jupyter.org/) to open and run the `.ipynb` files.
+2. **Install the necessary Python libraries:**  
+   (Python 3.7 or newer recommended)
+   ```bash
+   pip install numpy pandas matplotlib seaborn scipy statsmodels jupyter
+   ```
 
-## Requirements
+3. **Launch Jupyter Notebook:**
+   ```bash
+   jupyter notebook
+   ```
+   Then open any notebook from the `notebooks/` folder to get started.
 
-- Python (recommended: 3.7+)
-- Common Python libraries:
-  - numpy
-  - pandas
-  - matplotlib
-  - seaborn
-  - scipy
-  - statsmodels
-  - jupyter
-
-## Group Members
-
-This project was completed by the following group members:
+## Who We Are
 
 - [Zen-Nightshade](https://github.com/Zen-Nightshade)
 - [vhemanth06](https://github.com/vhemanth06)
 - [RagiBytes](https://github.com/RagiBytes)
+
 ---
