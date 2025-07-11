@@ -41,5 +41,5 @@ This project was completed by the following group members:
 
 - [Zen-Nightshade](https://github.com/Zen-Nightshade)
 - [vhemanth06](https://github.com/vhemanth06)
-- []()
+- [RagiBytes](https://github.com/RagiBytes)
 ---
