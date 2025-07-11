@@ -18,7 +18,7 @@ Our main aim: Use statistics to answer practical questions, make sense of the re
 1. **Clone this repo:**
    ```bash
    git clone https://github.com/Zen-Nightshade/Covid-19-Data-Analysis
-   cd Applied_Stats_Project
+   cd Covid-19-Data-Analysis
    ```
 
 2. **Install the necessary Python libraries:**  
