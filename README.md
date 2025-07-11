@@ -9,8 +9,8 @@ Our main aim: Use statistics to answer practical questions, make sense of the re
 
 ## Repository Structure
 
-- `notebooks/` – All our Jupyter Notebooks with code, plots, and explanations.
-- `data/` – (If present) The datasets we used.
+- `Visualization/` – The first part of the project. Contains notebooks and code for visualizing the COVID-19 data, including graphs, plots, and general exploratory analysis. The relevant datasets for visualization are included in this folder.
+- `Estimations/` – The second part of the project. This folder contains statistical estimations and analyses done on the data, applying various statistical methods. Datasets used for estimation are included here.
 - `README.md` – You’re reading it!
 
 ## Getting Started
@@ -31,7 +31,7 @@ Our main aim: Use statistics to answer practical questions, make sense of the re
    ```bash
    jupyter notebook
    ```
-   Then open any notebook from the `notebooks/` folder to get started.
+   Then open any notebook from the `Visualization/` or `Estimations/` folders to get started.
 
 ## Who We Are
 
